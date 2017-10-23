@@ -90,6 +90,7 @@ public class AdapterEx03 extends Frame implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 
 		String str = e.getActionCommand();
+		
 		if(str.equals("Clear")) {
 			ta.setText("");
 			tf.setText("");
